@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>House and Tree (HTML Table Layout)</title>
+<style>
+body {
+background: #87CEEB;
+}
+
+.home {
+  margin: 50px auto 0 auto;
+}
+
+.sun {
+  width: 150px;
+  height: 150px;
+  margin: 20px auto;
+  border-radius: 50%;
+  background: #FFD700;
+  background: linear-gradient(90deg, rgba(255, 235, 59, 1) 0%, rgba(255, 165, 0, 1) 100%);
+  
+}
+
+.roof {
+  
+  border-left: 175px solid transparent;
+  border-right: 175px solid transparent;
+  border-bottom: 150px solid rgb(130, 70, 70);
+  margin: 0 auto;
+}
+
+.house-body {
+  width: 350px;
+  height: 300px;
+  background-color: rgb(249, 234, 93);
+  border: 1px solid #543b3b;
+  padding-top: 20px;
+  
+}
+
+.ftable {
+    margin: 0 auto;
+}
+
+.window1 {
+  width: 80px;
+  height: 80px;
+  background: #87CEEB;
+  border: 5px solid #543b3b;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.door {
+  width: 90px;
+  height: 150px;
+  border: 5px solid rgb(130, 70, 70);
+  background-color: #a52a2a;
+  margin: 0 auto;
+}
+
+.knob {
+  border: 4px solid rgb(255, 215, 0);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: black;
+  margin-top: 70px;
+  margin-left: 15px;
+}
+
+.tree {
+  width: 200px;
+}
+
+.leaf1, .leaf2, .leaf3 {
+    background: #2E8B57;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.leaf1 {
+    width: 100px;
+    height: 100px;
+}
+
+.leaf2 {
+    width: 140px;
+    height: 140px;
+    margin-top: -40px;
+}
+
+.leaf3 {
+    width: 180px;
+    height: 180px;
+    margin-top: -60px;
+}
+
+.trunk {
+  width: 40px;
+  height: 200px;
+  background: #543b3b;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -30px;
+}
+</style>
+</head>
+<body>
+
+<div class="sun"></div>
+
+<table class="home" cellspacing="40">
+<tr>
+<td>
+<div class="house">
+<div class="roof"></div>
+<div class="house-body">
+<table class="ftable" cellspacing="15">
+<tr>
+<td>
+<div class="window1"></div>
+</td>
+<td>
+<div class="door">
+<div class="knob"></div>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</td>
+<td>
+<div class="tree">
+<div class="leaf1"></div>
+<div class="leaf2"></div>
+<div class="leaf3"></div>
+<div class="trunk"></div>
+</div>
+</td>
+</tr>
+</table>
+
+</body>
+</html>
